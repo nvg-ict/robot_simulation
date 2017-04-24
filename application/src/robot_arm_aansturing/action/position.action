@@ -1,0 +1,9 @@
+#goal definition
+int32 time
+int32[] angles
+---
+#result definition
+bool arrived
+---
+#feedback
+bool moving

@@ -1,0 +1,4 @@
+int32 time
+int32[] angles
+---
+bool accepted
