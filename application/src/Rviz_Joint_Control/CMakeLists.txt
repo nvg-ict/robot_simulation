@@ -133,7 +133,7 @@ include_directories(
 # add_dependencies(Rviz_Joint_Control ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-add_executable(Rviz_Joint_Control_node src/main.cpp)
+add_executable(Rviz_Joint_Control_node src/main.cpp src/JointStatePublisher.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
